@@ -12,5 +12,5 @@ Développement d'un modèle de Machine Learning supervisé capable d'estimer le 
 4. **Serialization** : Export du modèle (.pkl) pour mise en production via API.
 
 ## Performance
-- Précision du modèle (R²) : ~95% (sur données synthétiques).
+- Précision du modèle (R²) : ~93% sur jeu de test (20%), régression linéaire avec feature engineering (prix/m², segmentation géographique) et validation croisée 5-fold.
 - Erreur moyenne : +/- 4500€.
